@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de imagenes</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style type="text/css" rel="stylesheet">
+        /*.bloque-carrusel{
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bloque-carrusel-icono{
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }*/
+        div.bgsqr{
+        margin: 30px;
+        background-color: #ffffff;
+        /*border: 1px solid black;*/
+        opacity: 0.6;
+        }
+        div.bgsqr h3{
+            font-weight: bold;
+            color: black;
+        }
+        div.bgsqr p{
+            font-weight: bold;
+            color: black;
+        }
+        .centrar{
+            text-align: center;
+        }
+        .justificar{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <article>
+        <!-- Carousel -->
+    <div id="demo" class="carousel slide bloque-carrusel" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/competitors.jpg" alt="Competidores" class="d-block img-fluid mx-auto" style="width: 100%">
+                <div class="carousel-caption bgsqr">
+                    <h3>Del Libro a la Cancha</h3>
+                    <p>Lo que partió en un libro de fantasía hoy ocupa canchas alrededor del mundo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/equipos.png" alt="Equipos" class="d-block img-fluid mx-auto" style="width:100%">
+                <div class="carousel-caption bgsqr">
+                    <h3>Integrantes</h3>
+                    <p>Guardian, Buscadores, Golpeadores y Cazadores</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/quidditch-en-florencia.jpg" alt="torneos" class="d-block img-fluid mx-auto" style="width:100%">
+                <div class="carousel-caption bgsqr">
+                    <h3>Torneos</h3>
+                    <p>Existen ligas locales, de distritos y nacionales alrededor del mundo.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/quidditch.jpg" alt="impacto" class="d-block img-fluid mx-auto" style="width:100%">
+                <div class="carousel-caption bgsqr">
+                    <h3>Alto impacto</h3>
+                    <p>Al igual que en libro, este deporte demanda una alta preparación física</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/torneo.jpg" alt="elementos" class="d-block img-fluid mx-auto" style="width:100%">
+                <div class="carousel-caption bgsqr">
+                    <h3>Pelotas y hechizos</h3>
+                    <p>A falta de un mundo mágico, el snitch es una pelota de tenis y el quaffle por una pelota de handball</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">    
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  
+    <div class="container-fluid mt-3">
+        <h3 class="centrar">Forma de jugar Quidditch</h3>
+        <p class="justificar">El juego consiste en marcar tantos en uno de los tres aros que se encuentran en cada lado del campo de juego, con una de las tres pelotas que se encuentran en la cancha –llamada Quaffle- al momento de disputar la partida. Esta la única que se utiliza para anotar los goles.
+        </p>
+        <p class="justificar">
+        Después están las Bludgers, que son aquellas que se utilizan para “quemar” a los integrantes del equipo contrario. Esto hace que los jugadores queden fuera de juego, por lo que deben volver a sus porterías y tocar los arcos para regresar al campo.
+        </p>
+        <p>
+        <img src="./img/grafico-01.png" class="mx-auto d-block img-fluid" title="Posiciones">
+        </p>
+        <p>
+            Las partidas las disputan siete jugadores de cada lado. Las posiciones son Guardián, Cazadores, Golpeadores y el Buscador. Además, existe un jugador imparcial que realiza el papel de la snith dorada, elemento fundamental dentro de la fantasía de Harry Potter. Para reemplazarla, el jugador que representa la snitch se cuelga una pelota en la parte de atrás de la cintura.
+        </p>
+        <p>
+            “Los buscadores deben perseguir al corredor, sin ejercer fuerza, y atrapar la pelota. Cuando esto sucede, se le otorgan 30 puntos al equipo que la capturó y se finaliza el parido”, explica Neal sobre la función de la snitch en el Quidditch. La duración de un partido es, aproximadamente, de 30 minutos.
+        </p>
+    </div>
+  
+    </article>
+</body>
+</html>

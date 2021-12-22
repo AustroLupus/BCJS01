@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copas</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .descp{
+            text-align: justify;
+        }
+        .centimg{
+        text-align: center;
+        }
+        body{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>Trofeos de Quidditch</h1>
+        <p>Copas de la Asociación de Quidditch España</p> 
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4 centimg">
+            <img src="./img/copa_espana.png" class="rounded-circle" alt="Copa España" title="Copa España" height="150px" > 
+            <h3>Copa de España</h3>
+            <p class="descp">La Copa de España de quidditch es el principal torneo de quidditch español. Es un evento anual, realizado por primera vez en el año 2016.</p>
+          </div>
+          <div class="col-sm-4 centimg">
+            <img src="./img/copa_sur.png" class="rounded-circle" alt="Copa del Sur" title="Copa del Sur" height="150px">   
+            <h3>Copa del Sur</h3>
+            <p class="descp">La Copa del Sur es una competición anual organizada por la Confederación del Sur y disputada por equipos de Quidditch sudamericanos. Su duración es de 2 a 3 días realizándose en el mes de diciembre.</p>
+            <p class="descp">Es uno de los eventos más importantes a nivel latinoamericano debido a que reúne equipos de diferentes países y se rige bajo el reglamento de la <span style="text-decoration: underline;" title="Definición" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="International Quidditch Association"><strong>IQA</strong></span>, formando así la primera escena competitiva en este continente.</p>
+          </div>
+          <div class="col-sm-4 centimg">
+            <img src="./img/rivas.jpg" class="rounded-circle" alt="Copa Rivas" title="Copa Rivas" height="150px">
+            <h3>Rivas Quidditch Cup 2015</h3>
+            <p class="descp">La Rivas Quidditch Cup fue una competición de quidditch organizada por la asociación juvenil Nexo Educativo los días 20 y 21 de junio de 2015 en Rivas-Vaciamadrid (Madrid).</p>
+          </div>
+        </div>
+      </div>
+      <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+        })
+        </script>
+        
+</body>
+</html>

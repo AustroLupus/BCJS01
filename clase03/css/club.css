@@ -1,0 +1,6 @@
+tr:nth-child(even) {
+    background-color:darkolivegreen;
+}
+#origenes{
+    padding: 20px;
+}

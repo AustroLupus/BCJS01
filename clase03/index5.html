@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        .left{
+            background-color: #f55c05;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        .main{
+            background-color: #05f583;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+        .right{
+            background-color: #0542f5;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        @media screen and (max-width: 800px) {
+            .left, .main, .right{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Manejo de medios o Responsivo</h2>
+    <p>Redimencionado de paginas de acuerdo al tamaño</p>
+    <p>Generar re-acomodo de los elementos de la pagina con un punto de quiebre o cambio a los 800px</p>
+    <div class="left">
+        <p>menu left</p>
+    </div>
+    <div class="main">
+        <p>contenido</p>
+    </div>
+    <div class="right">
+        <p>lado</p>
+    </div>
+    
+</body>
+</html>

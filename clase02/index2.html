@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera página con estilos</title>
+    <style type="text/css">
+         *{
+            box-sizing: border-box;
+        }
+        body{
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        header{
+            background-color: #17a2e5;
+            padding: 40px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 350px;
+            background: #F7D817;
+            padding: 40px;
+        }
+        nav ul{
+            list-style: none;
+            padding: 20px;
+        }
+        article{
+            float: left;
+            padding: 25px;
+            width: 70%;
+            background: #E3BA03;
+            height: 450;
+        }
+        section{
+            display: table;
+            clear: both;
+            content: "";
+        }
+        p{
+            text-align: justify;
+        }
+        footer{
+            background-color: #0f84ae;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        #myP {
+            text-align: right;
+        }
+        @media(max-width:600px){
+            nav,article{
+                width: 100%;
+                height: auto;
+            }
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Base de Datos</h1>
+    </header>
+    <!--<aside>
+        Texto puesto Aside
+    </aside>-->
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="index3.html">Página 2</a></li>
+                <li><a href="index4.html">Página 3</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h3>Titulo 1</h3>
+            <p id="myP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis enim aspernatur, praesentium dolore fuga quisquam tempora repudiandae consectetur ab saepe perspiciatis atque, minus perferendis officiis, id eius? Similique, ullam? Accusantium?</p>
+        </article>
+        <article>
+            <h3>Titulo 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis nisi possimus incidunt quo quos aliquid ducimus sunt impedit est quaerat error sint, architecto eius officiis quidem assumenda eum minima consectetur?</p>
+        </article>
+    </section>
+    <footer>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis assumenda, officiis facilis illo corporis ullam molestiae placeat delectus, adipisci fugiat nisi veniam. Nisi sapiente cumque maiores delectus rerum est!</p>    
+    </footer>
+</body>
+</html>

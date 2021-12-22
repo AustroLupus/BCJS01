@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <div class="p-5 bg-primary text-white text-center">
+        <h1>Conviertase en nuestro socio</h1>
+        <p>Sea perte de nuestra gran familia</p> 
+      </div>
+    <div class="container-md pt-5">
+        <form action="./paginaform02.html" method="get">
+            <div class="row">
+                <div class="col">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre" name="nombre">
+                </div>
+                <div class="col">
+                    <label for="rut" class="form-label">Rut:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su rut" name="rut">
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col">
+                    <label for="direccion" class="form-label">Dirección:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su dirección" name="direccion">
+                </div>
+                <div class="col">
+                    <label for="mail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" placeholder="Ingrese su correo" name="mail">
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col">
+                    <label for="fecnac" class="form-label">Fecha de Nacimiento:</label>
+                    <input type="date" class="form-control" placeholder="dd-mm-yyyy" name="fecnac">
+                </div>
+                <div class="col">
+                    <label for="sexo" class="form-label">Sexo:</label>
+                    <div class="dropdown">
+                       <select class="form-select" name="sexo">
+                            <option value="femenino">Femenino</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="trans">Transexual</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="pt-2">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

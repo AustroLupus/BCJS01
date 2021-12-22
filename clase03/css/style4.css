@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgreen;
+    color:lightsteelblue;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:khaki;
+}
+a:hover{
+    color:greenyellow;
+    font-size: 1.5em;
+}
+header{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+table th{
+    background: darkslateblue;
+    color:gold;
+    text-align: center;
+}
+table td{
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+img{
+    padding: 20px;
+    max-width: 600px;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+p{
+    padding: 8px;
+    margin: 7px;
+}
+@media screen and (max-width: 800px) {
+    table, article, img{
+        width: 100%;
+    }
+    #logoaqe{
+        width: 50%;
+        padding: 8px;
+        display: block;
+        float: inline-start;
+    }
+    nav{
+        width: 60%;
+    }
+}
+nav{
+    background-color: darkslateblue;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 20%;
+    color: gold;
+    float: left;
+}
+#logoaqe{
+    text-align: center;
+}
+.centrar{
+    margin-left: auto;
+    margin-right: auto;
+}
+article{
+    text-align: justify;
+}
